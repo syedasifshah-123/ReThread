@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReThread - Donate your Clothes</title>
+
+    <!-- Google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- favicon link -->
+
+    <link rel="shortcut icon" href="images/light-logo.svg" type="image/x-icon">
+
+    <!-- Custom css link -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tailwind css -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Icon -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Header Start -->
+    
+
+    <header class="header">
+
+        <a href="/" class="logo">
+            <img src="images/light-logo.svg" class="logo-light" width="65" alt="Logo">
+            <img src="images/dark-logo.svg" class="logo-dark" width="65" alt="Logo">
+            <p class="logo-text">Re<span>Thread</span></p>
+        </a>
+
+        <div class="nav-menu" data-nav-menu>
+            <div class="marker" data-nav-marker></div>
+            <a href="#" class="nav-link" data-nav-link>Home</a>
+            <a href="#" class="nav-link" data-nav-link>About</a>
+            <a href="#" class="nav-link" data-nav-link>My Works</a>
+            <a href="#" class="nav-link" data-nav-link>Services</a>
+            <a href="#" class="btn btn-primary for-menu">Login</a>
+        </div>
+
+        <div class="btn-group">
+
+            <button class="btn btn-primary login-btn">Login</button>
+
+            <button class="btn icon-btn menu-btn" data-nav-menu-btn>
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+            <button class="btn icon-btn" data-theme-setting-btn>
+                <span class="material-symbols-outlined">settings</span>
+            </button>
+
+            <div class="theme-menu" data-theme-menu>
+
+                <div class="item-list active"  data-dark-theme-btn>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                    <p class="text">Dark</p>
+                </div>
+                
+                <div class="item-list" data-auto-theme-btn>
+                    <span class="material-symbols-outlined">brightness_auto </span>
+                    <p class="text">System</p>
+                </div>
+
+                <div class="item-list"  data-light-theme-btn>
+                    <span class="material-symbols-outlined">light_mode</span>
+                    <p class="text">Light</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Header End -->
+
+
+
+    <!-- Hero section start -->
+
+    <section class="hero-section flex items-center gap-10 justify-center">
+
+        <div class="hero-image">
+            <img src="images/hero.png" alt="ReThread">
+        </div>
+
+        <div class="hero-text">
+            <h2 class="hero-title font-[500] text-[50px] text-[--primary] w-[15ch] leading-[50px]">Better donor engagement and conversions</h2>
+        
+            <p class="text w-[50ch] mt-6">Online forms, fundraising pages, and native integrations that help you engage donors, manage giving, and increase your revenue.</p>
+
+            <button class="btn btn-primary mt-10">Get Started</button>
+
+        </div>
+
+    </section>
+
+    <!-- Hero section end -->
+
+
+    <!-- Charges section Start -->
+
+    <section class="hero-section charges-section flex items-center gap-10 justify-center">
+
+        <div class="hero-text">
+            <h2 class="hero-title font-[500] w-[20ch]  text-[50px] leading-[50px]">Take charge of every donation and fundraiser</h2>
+        
+            <p class="text w-[50ch] mt-6">Forget clunky systems and outdated technology. Donately’s modern dashboard will help you get more done faster so you can get back to helping your organization succeed. Manage donors, track recurring giving, configure emails, and take control of your day-to-day fundraising activity.</p>
+
+        </div>
+
+        <div class="hero-image charges-image">
+            <img src="images/charges.png" alt="ReThread">
+        </div>
+
+    </section>
+
+    <!-- Charges section End -->
+
+
+    <!-- platform section Start -->
+
+    <section class="hero-section platform-section flex items-center gap-10 justify-center">
+
+        <div class="hero-image platform-image">
+            <img src="images/platform.png" alt="ReThread">
+        </div>
+
+        <div class="hero-text">
+            <h2 class="hero-title w-[20ch] font-[500] text-[50px] leading-[50px]">Natively integrate with the world's best tools and platforms</h2>
+        
+            <p class="text w-[50ch] mt-6">Forget clunky systems and outdated technology. Donately’s modern dashboard will help you get more done faster so you can get back to helping your organization succeed. Manage donors, track recurring giving, configure emails, and take control of your day-to-day fundraising activity.</p>
+
+        </div>
+
+    </section>
+
+    <!-- platform section End -->
+
+
+    <!-- Cards section start -->
+
+    <section class="cards-section px-10">
+
+        <h2 class="card-title font-[450] text-[30px] text-center">Why ReThread?</h2>
+
+        <div class="cards-grid pt-8">
+
+            <div class="card px-5 py-5 rounded-sm"> 
+                <svg class="items-start" width="currentWidth" height="45" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-acsb-hidden="true">
+                    <path d="M6.55176 15.6996L21.3251 0.926213C21.6013 0.655526 21.9725 0.503906 22.3592 0.503906C22.7459 0.503906 23.1172 0.655526 23.3934 0.926213L29.3027 6.83555C29.5734 7.11171 29.725 7.48299 29.725 7.86969C29.725 8.25638 29.5734 8.62766 29.3027 8.90382L14.5294 23.6772C14.2566 23.9555 13.8849 24.1148 13.4952 24.1204H7.58589C7.19408 24.1204 6.81831 23.9647 6.54126 23.6877C6.2642 23.4106 6.10856 23.0348 6.10856 22.643V16.7337C6.11411 16.344 6.27341 15.9723 6.55176 15.6996V15.6996ZM9.06323 21.1657H12.8895L26.1855 7.86969L22.3592 4.04339L9.06323 17.3394V21.1657ZM23.8366 18.211C23.8366 17.8192 23.9922 17.4434 24.2693 17.1664C24.5463 16.8893 24.9221 16.7337 25.3139 16.7337C25.7057 16.7337 26.0815 16.8893 26.3585 17.1664C26.6356 17.4434 26.7912 17.8192 26.7912 18.211V27.075C26.7912 27.8587 26.4799 28.6102 25.9258 29.1643C25.3717 29.7184 24.6202 30.0297 23.8366 30.0297H3.15389C2.37026 30.0297 1.61873 29.7184 1.06462 29.1643C0.510513 28.6102 0.199219 27.8587 0.199219 27.075V6.39235C0.199219 4.76728 1.52882 3.43768 3.15389 3.43768H12.0179C12.4097 3.43768 12.7855 3.59333 13.0625 3.87038C13.3396 4.14744 13.4952 4.5232 13.4952 4.91502C13.4952 5.30683 13.3396 5.6826 13.0625 5.95965C12.7855 6.2367 12.4097 6.39235 12.0179 6.39235H3.15389V27.075H23.8366V18.211Z" fill="url(#paint0_linear_1316_1952)"></path>
+                    <defs>
+                    <linearGradient id="paint0_linear_1316_1952" x1="0.199219" y1="0.503906" x2="35.7921" y2="16.6804" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1BB77D"></stop>
+                    <stop offset="1" stop-color="#3CD99E"></stop>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <div class="card-title font-[450] text-[19px] w-[15ch] pt-5">Simple to use and customize</div>
+                <div class="card-text pt-5">We pride ourselves on making things easy to use - no code, no developers, and no training required.</div>
+            </div>
+
+            <div class="card px-5 py-5 rounded-sm"> 
+                <svg class="items-start" width="currentWidth" height="45" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-acsb-hidden="true">
+                    <path d="M6.55176 15.6996L21.3251 0.926213C21.6013 0.655526 21.9725 0.503906 22.3592 0.503906C22.7459 0.503906 23.1172 0.655526 23.3934 0.926213L29.3027 6.83555C29.5734 7.11171 29.725 7.48299 29.725 7.86969C29.725 8.25638 29.5734 8.62766 29.3027 8.90382L14.5294 23.6772C14.2566 23.9555 13.8849 24.1148 13.4952 24.1204H7.58589C7.19408 24.1204 6.81831 23.9647 6.54126 23.6877C6.2642 23.4106 6.10856 23.0348 6.10856 22.643V16.7337C6.11411 16.344 6.27341 15.9723 6.55176 15.6996V15.6996ZM9.06323 21.1657H12.8895L26.1855 7.86969L22.3592 4.04339L9.06323 17.3394V21.1657ZM23.8366 18.211C23.8366 17.8192 23.9922 17.4434 24.2693 17.1664C24.5463 16.8893 24.9221 16.7337 25.3139 16.7337C25.7057 16.7337 26.0815 16.8893 26.3585 17.1664C26.6356 17.4434 26.7912 17.8192 26.7912 18.211V27.075C26.7912 27.8587 26.4799 28.6102 25.9258 29.1643C25.3717 29.7184 24.6202 30.0297 23.8366 30.0297H3.15389C2.37026 30.0297 1.61873 29.7184 1.06462 29.1643C0.510513 28.6102 0.199219 27.8587 0.199219 27.075V6.39235C0.199219 4.76728 1.52882 3.43768 3.15389 3.43768H12.0179C12.4097 3.43768 12.7855 3.59333 13.0625 3.87038C13.3396 4.14744 13.4952 4.5232 13.4952 4.91502C13.4952 5.30683 13.3396 5.6826 13.0625 5.95965C12.7855 6.2367 12.4097 6.39235 12.0179 6.39235H3.15389V27.075H23.8366V18.211Z" fill="url(#paint0_linear_1316_1952)"></path>
+                    <defs>
+                    <linearGradient id="paint0_linear_1316_1952" x1="0.199219" y1="0.503906" x2="35.7921" y2="16.6804" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1BB77D"></stop>
+                    <stop offset="1" stop-color="#3CD99E"></stop>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <div class="card-title font-[450] text-[19px] w-[15ch] pt-5">Simple to use and customize</div>
+                <div class="card-text pt-5">We pride ourselves on making things easy to use - no code, no developers, and no training required.</div>
+            </div>
+
+            <div class="card px-5 py-5 rounded-sm"> 
+                <svg class="items-start" width="currentWidth" height="45" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-acsb-hidden="true">
+                    <path d="M6.55176 15.6996L21.3251 0.926213C21.6013 0.655526 21.9725 0.503906 22.3592 0.503906C22.7459 0.503906 23.1172 0.655526 23.3934 0.926213L29.3027 6.83555C29.5734 7.11171 29.725 7.48299 29.725 7.86969C29.725 8.25638 29.5734 8.62766 29.3027 8.90382L14.5294 23.6772C14.2566 23.9555 13.8849 24.1148 13.4952 24.1204H7.58589C7.19408 24.1204 6.81831 23.9647 6.54126 23.6877C6.2642 23.4106 6.10856 23.0348 6.10856 22.643V16.7337C6.11411 16.344 6.27341 15.9723 6.55176 15.6996V15.6996ZM9.06323 21.1657H12.8895L26.1855 7.86969L22.3592 4.04339L9.06323 17.3394V21.1657ZM23.8366 18.211C23.8366 17.8192 23.9922 17.4434 24.2693 17.1664C24.5463 16.8893 24.9221 16.7337 25.3139 16.7337C25.7057 16.7337 26.0815 16.8893 26.3585 17.1664C26.6356 17.4434 26.7912 17.8192 26.7912 18.211V27.075C26.7912 27.8587 26.4799 28.6102 25.9258 29.1643C25.3717 29.7184 24.6202 30.0297 23.8366 30.0297H3.15389C2.37026 30.0297 1.61873 29.7184 1.06462 29.1643C0.510513 28.6102 0.199219 27.8587 0.199219 27.075V6.39235C0.199219 4.76728 1.52882 3.43768 3.15389 3.43768H12.0179C12.4097 3.43768 12.7855 3.59333 13.0625 3.87038C13.3396 4.14744 13.4952 4.5232 13.4952 4.91502C13.4952 5.30683 13.3396 5.6826 13.0625 5.95965C12.7855 6.2367 12.4097 6.39235 12.0179 6.39235H3.15389V27.075H23.8366V18.211Z" fill="url(#paint0_linear_1316_1952)"></path>
+                    <defs>
+                    <linearGradient id="paint0_linear_1316_1952" x1="0.199219" y1="0.503906" x2="35.7921" y2="16.6804" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1BB77D"></stop>
+                    <stop offset="1" stop-color="#3CD99E"></stop>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <div class="card-title font-[450] text-[19px] w-[15ch] pt-5">Simple to use and customize</div>
+                <div class="card-text pt-5">We pride ourselves on making things easy to use - no code, no developers, and no training required.</div>
+            </div>
+
+            <div class="card px-5 py-5 rounded-sm"> 
+                <svg class="items-start" width="currentWidth" height="45" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-acsb-hidden="true">
+                    <path d="M6.55176 15.6996L21.3251 0.926213C21.6013 0.655526 21.9725 0.503906 22.3592 0.503906C22.7459 0.503906 23.1172 0.655526 23.3934 0.926213L29.3027 6.83555C29.5734 7.11171 29.725 7.48299 29.725 7.86969C29.725 8.25638 29.5734 8.62766 29.3027 8.90382L14.5294 23.6772C14.2566 23.9555 13.8849 24.1148 13.4952 24.1204H7.58589C7.19408 24.1204 6.81831 23.9647 6.54126 23.6877C6.2642 23.4106 6.10856 23.0348 6.10856 22.643V16.7337C6.11411 16.344 6.27341 15.9723 6.55176 15.6996V15.6996ZM9.06323 21.1657H12.8895L26.1855 7.86969L22.3592 4.04339L9.06323 17.3394V21.1657ZM23.8366 18.211C23.8366 17.8192 23.9922 17.4434 24.2693 17.1664C24.5463 16.8893 24.9221 16.7337 25.3139 16.7337C25.7057 16.7337 26.0815 16.8893 26.3585 17.1664C26.6356 17.4434 26.7912 17.8192 26.7912 18.211V27.075C26.7912 27.8587 26.4799 28.6102 25.9258 29.1643C25.3717 29.7184 24.6202 30.0297 23.8366 30.0297H3.15389C2.37026 30.0297 1.61873 29.7184 1.06462 29.1643C0.510513 28.6102 0.199219 27.8587 0.199219 27.075V6.39235C0.199219 4.76728 1.52882 3.43768 3.15389 3.43768H12.0179C12.4097 3.43768 12.7855 3.59333 13.0625 3.87038C13.3396 4.14744 13.4952 4.5232 13.4952 4.91502C13.4952 5.30683 13.3396 5.6826 13.0625 5.95965C12.7855 6.2367 12.4097 6.39235 12.0179 6.39235H3.15389V27.075H23.8366V18.211Z" fill="url(#paint0_linear_1316_1952)"></path>
+                    <defs>
+                    <linearGradient id="paint0_linear_1316_1952" x1="0.199219" y1="0.503906" x2="35.7921" y2="16.6804" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1BB77D"></stop>
+                    <stop offset="1" stop-color="#3CD99E"></stop>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <div class="card-title font-[450] text-[19px] w-[15ch] pt-5">Simple to use and customize</div>
+                <div class="card-text pt-5">We pride ourselves on making things easy to use - no code, no developers, and no training required.</div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Cards section end -->
+
+
+    <!-- Javascirpt Link -->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
